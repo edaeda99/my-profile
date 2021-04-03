@@ -1,0 +1,82 @@
+body { 
+ background-color: #E4BAD4;
+ color: #b4aee8;
+ font-family: 'Merienda', cursive;
+ text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: purple;
+}
+
+a {
+ color: black;
+ font-size: 15px;
+ font-weight: bold;
+ }
+
+a:hover {
+ color: black;
+}
+
+h1, h2, h3 {
+ font-family: 'Merienda', cursive;
+ line-height: 2
+ font-size: 35px;
+}	
+
+ul{
+ padding: 1;
+}
+/* Custom design with class(99% of my design)*/
+.container {
+	width: 600px
+	margin: 30px 390;
+	padding: 20px;
+}
+
+@media (max-width: 600px) {
+ .container {
+ 	margin-right: 1px;
+ 	width: 340px;
+ 	border-right: 1px;
+ 	padding-right: 1px
+ 	}
+}
+
+.card-white {
+	background-color: #E7D9EA;
+	padding: 40;
+	box-shadow: 2px 15px 40px rgba(0,0,0.4);
+	margin: 30px 130px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 60%
+}
+
+.btn-blue:hover { 
+    background-color: black;
+    color: white;
+}
+
+.list-vertical { 
+	list-style:none;
+}
+
+.list-vertical i { 
+	color: black;
+	font-size: 25px;
+}
+
+.list-vertical i:hover { 
+	color: black;
+
+}
+/*Design adjustments using id ( 1% of design remaining)*/
+#introduction p { 
+	margin-bottom: 45px;
+
+
